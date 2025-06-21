@@ -1,0 +1,80 @@
+{
+  "scan_id": "61647060-cce0-49b8-b48a-037da4b6bf24",
+  "start_time": 1743057175.476749,
+  "targets": [
+    "https://coinswitch.co/"
+  ],
+  "ports": [
+    21,
+    22,
+    25,
+    53,
+    80,
+    443,
+    445,
+    3306,
+    3389,
+    8080
+  ],
+  "timeout": 5,
+  "results": {
+    "https://coinswitch.co/": {
+      "status": "scanned",
+      "ports": {
+        "21": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "FTP"
+        },
+        "22": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "SSH"
+        },
+        "25": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "SMTP"
+        },
+        "53": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "DNS"
+        },
+        "80": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "HTTP"
+        },
+        "443": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "HTTPS"
+        },
+        "445": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "SMB"
+        },
+        "3306": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "MySQL"
+        },
+        "3389": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "RDP"
+        },
+        "8080": {
+          "status": "error",
+          "error": "invalid literal for int() with base 10: '/coinswitch.co/'",
+          "service": "HTTP-Proxy"
+        }
+      }
+    }
+  },
+  "anomalies": [],
+  "end_time": 1743057175.4804063,
+  "duration": 0.0036573410034179688
+}
